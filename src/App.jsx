@@ -14,19 +14,19 @@ function App() {
   const [scrolling, setScrolling] = useState(false);
 
   const onPageScroll = () => {
-    if(window.pageYOffset > 200) {
-      setScrolling(true)
+    if (window.pageYOffset > 200) {
+      setScrolling(true);
     } else {
       setScrolling(false);
     }
-  }
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll", onPageScroll)
-    return() => {
-      window.removeEventListener("scroll", onPageScroll)
-    }
-  }, [])
+    window.addEventListener("scroll", onPageScroll);
+    return () => {
+      window.removeEventListener("scroll", onPageScroll);
+    };
+  }, []);
 
   return (
     <div className="max-w-4xl m-auto relative">
@@ -39,7 +39,7 @@ function App() {
         <div className="container m-auto px-4 py-6 max-w-4xl bg-black">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
             <div>
-              <a href="https://kroszborg.github.io/Website/">
+              <a href="https://kroszborg.netlify.app">
                 <h1 className="font-bold text-2xl">Abhiman Panwar</h1>
               </a>
             </div>
