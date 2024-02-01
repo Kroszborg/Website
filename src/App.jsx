@@ -90,7 +90,7 @@ function App() {
                   A passionate developer with a love for programming, cats, and
                   music
                 </p>
-                <a href="src\assets\resume.pdf" target="_blank">
+                <a href="https://docs.google.com/document/d/18EuzTLAPzAP0j0PJEHLZbPfQ72UNAYRJlA9bmzX_Skw/edit?usp=sharingf" target="_blank">
                   <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Download resume
                   </button>
