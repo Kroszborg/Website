@@ -39,7 +39,7 @@ function App() {
         <div className="container m-auto px-4 py-6 max-w-4xl bg-black">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
             <div>
-              <a href="https://kroszborg.netlify.app">
+              <a href="https://kroszborg.netlify.app" target="_blank">
                 <h1 className="font-bold text-2xl">Abhiman Panwar</h1>
               </a>
             </div>
