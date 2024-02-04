@@ -1,10 +1,9 @@
 import "./App.css";
-import Porfile from "./assets/Photo.png";
+import Profile from "./assets/Photo.png";
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
-import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 import ArrowDown from "./assets/arrow-down.svg";
@@ -100,7 +99,7 @@ function App() {
             <div className="relative">
               <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
                 <img
-                  src={Porfile}
+                  src={Profile}
                   className="relative z-10 w-[280px] m-auto sm:w-[600px]"
                 />
               </div>
@@ -127,10 +126,7 @@ function App() {
                       Live preview
                     </button>
                   </a>
-                  <a
-                    href="https://github.com/Sahil8030/Cyber-haiks"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Sahil8030/Cyber-haiks" target="_blank">
                     <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                       Checkout github
                     </button>
@@ -147,18 +143,12 @@ function App() {
                   Organization. HTML5, CSS3 (SCSS), Javascript
                 </p>
                 <div className="flex gap-2 mt-12">
-                  <a
-                    href="https://illustrious-hotteok-e52f07.netlify.app"
-                    target="_blank"
-                  >
+                  <a href="https://illustrious-hotteok-e52f07.netlify.app" target="_blank">
                     <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                       Live preview
                     </button>
                   </a>
-                  <a
-                    href="https://github.com/Kroszborg/threepointonefour"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Kroszborg/threepointonefour" target="_blank">
                     <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                       Checkout github
                     </button>
@@ -177,19 +167,12 @@ function App() {
                   Business. HTML5, CSS3 (SCSS)
                 </p>
                 <div className="flex gap-4 mt-12">
-                  <a
-                    a
-                    href="https://endearing-mandazi-f307a3.netlify.app"
-                    target="_blank"
-                  >
+                  <a href="https://endearing-mandazi-f307a3.netlify.app" target="_blank" >
                     <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                       Live preview
                     </button>
                   </a>
-                  <a
-                    href="https://github.com/Kroszborg/Hair_dresser"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Kroszborg/Hair_dresser" target="_blank">
                     <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                       Checkout github
                     </button>
@@ -204,18 +187,12 @@ function App() {
                   campaign anonymously.
                 </p>
                 <div className="flex gap-2 mt-12">
-                  <a
-                    href="https://courageous-sunburst-83c8ea.netlify.app"
-                    target="_blank"
-                  >
+                  <a href="https://courageous-sunburst-83c8ea.netlify.app" target="_blank">
                     <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                       Live preview
                     </button>
                   </a>
-                  <a
-                    href="https://github.com/Kroszborg/webRaise"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Kroszborg/webRaise" target="_blank">
                     <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                       Checkout github
                     </button>
@@ -225,38 +202,42 @@ function App() {
             </div>
           </div>
         </section>
-        {/* Technoglies section */}
+        {/* Technologies section */}
         <section className="py-10" id="technologies">
-          <div className="container m-auto px-4">
+          <div className="container m-auto px-4 py-14">
             <h2 className="text-2xl font-semibold">Technologies</h2>
-            <div className="mt-14">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[80%]">
               <div>
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">HTML5</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  HTML
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS3</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  CSS
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">JavaScript</h2>
-                  <p className="text-gray-500">Intermediate</p>
-                </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  Javascript
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">React</h2>
-                  <p className="text-gray-500">Intermediate</p>
-                </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  React.JS
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-36 mt-4 sm:mt-6 w-[80%]">
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  Flutter
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  Python
+                </p>
               </div>
             </div>
           </div>
@@ -264,9 +245,7 @@ function App() {
         {/* Additional skills section */}
         <section>
           <div className="container m-auto px-4 py-14">
-            <h2 className="text-2xl font-semibold">
-              Additional technologies and skills
-            </h2>
+            <h2 className="text-2xl font-semibold">Additional Skills</h2>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
@@ -303,6 +282,7 @@ function App() {
             </div>
           </div>
         </section>
+        {/* About me section */}
         <section className="py-8" id="aboutme">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">About me</h2>
@@ -337,10 +317,7 @@ function App() {
           <div>
             <ul className="flex gap-4">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/abhiman-panwar-272aa7228/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/abhiman-panwar-272aa7228/" target="_blank">
                   <img src={LinkedIn} className="w-5" />
                 </a>
               </li>
