@@ -143,7 +143,7 @@ function App() {
                   Organization. HTML5, CSS3 (SCSS), Javascript
                 </p>
                 <div className="flex gap-2 mt-12">
-                  <a href="https://illustrious-hotteok-e52f07.netlify.app" target="_blank">
+                  <a href="https://www.threepointonefour.in/" target="_blank">
                     <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                       Live preview
                     </button>
